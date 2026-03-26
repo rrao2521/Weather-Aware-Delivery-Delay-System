@@ -1,0 +1,17 @@
+# 🌦️ Weather-Aware Delivery Delay System
+
+## 📌 Overview
+This project checks weather conditions for delivery cities and flags potential delays using the OpenWeatherMap API.
+
+---
+
+## 🚀 Features
+- Parallel API fetching using Promise.all
+- Weather-based delay detection (Rain, Snow, Extreme)
+- AI-generated apology messages
+- Error handling for invalid cities
+- Secure API key handling using .env
+
+---
+
+## 📁 Project Structure

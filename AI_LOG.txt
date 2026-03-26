@@ -1,0 +1,31 @@
+AI Log
+
+1. Prompt:
+"Write Node.js code using Promise.all to fetch multiple API calls in parallel."
+
+Usage:
+Used this to implement concurrent weather fetching for multiple cities instead of sequential calls.
+
+---
+
+2. Prompt:
+"How to handle API errors in async/await without crashing the app?"
+
+Usage:
+Used try-catch blocks inside the fetchWeather function to handle errors like invalid city names or API failures without stopping execution.
+
+---
+
+3. Prompt:
+"Generate a short personalized apology message based on weather delay."
+
+Usage:
+Used this to create a function that generates customer-friendly delay messages based on weather conditions.
+
+---
+
+4. Prompt:
+"How to securely store API keys in Node.js applications?"
+
+Usage:
+Used dotenv and .env file to securely store OpenWeatherMap API key instead of hardcoding it.
