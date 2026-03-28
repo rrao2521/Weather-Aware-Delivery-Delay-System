@@ -58,4 +58,6 @@ async function processOrders() {
   console.log("Orders processed successfully!");
 }
 
-processOrders();
+setInterval(() => {
+  processOrders();
+}, 3600000); // every 1 hour;
